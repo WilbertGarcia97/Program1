@@ -1,0 +1,15 @@
+#include <stdio.h>
+void main()
+{
+  int age_to_enter;
+
+  printf("Input your age : ");
+  scanf("%d",&age_to_enter);
+  if (age_to_enter<18)
+     {
+       printf("Sorry, You cant enter.\n");
+       printf("You can come back when your %d year.\n",18-age_to_enter);
+     }
+  else
+     printf("We are happy to welcome you again.\n");
+}
